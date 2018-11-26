@@ -3,6 +3,40 @@ html {
   background-size: cover;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica;
+}
+
 #gallery {
-  display: inline-block;
+
+}
+
+img {
+  width: 150%
+}
+
+#Shanelle {
+  background-color: ;
+}
+
+#Kendra {
+  background-color: ;
+}
+
+#Dekwondra {
+  background-color: ;
+}
+
+#Rajin {
+  background-color: ;
+
+}
+
+#Rinzin {
+  background-color: ;
 }
