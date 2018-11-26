@@ -9,26 +9,39 @@ body {
 }
 
 #gallery {
-  display: inline-block;
+  margin-top: 20px;
+  margin-left: 25%;
+  margin-right: 20%;
+  height: 300px;
+}
+
+img {
+  width: 150%
 }
 
 #Shanelle {
   background-color: ;
-
+  display: inline-block;
 }
 
 #Kendra {
   background-color: ;
+  display: inline-block;
 }
 
 #Dekwondra {
   background-color: ;
+  display: inline-block;
 }
 
-#Raijin {
+#Rajin {
   background-color: ;
+  display: inline-block;
+
 }
 
 #Rinzin {
   background-color: ;
+  display: inline-block;
+
 }
