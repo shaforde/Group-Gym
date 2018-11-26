@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -26,4 +27,7 @@ body {
 
 #Rinzin {
   background-color: ;
+
+#gallery {
+  display: inline-block;
 }
