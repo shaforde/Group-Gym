@@ -26,10 +26,12 @@ img {
 
 #Kendra {
   background-color: ;
+
 }
 
 #Dekwondra {
   background-color: ;
+
 }
 
 #Rajin {
@@ -37,6 +39,59 @@ img {
 
 }
 
-#Rinzin {
+#Rinzen {
   background-color: ;
+}
+
+#gallery{
+
+}
+
+table{
+  text-align: center;
+}
+
+#Trainer{
+  display: inline-block;
+  width:50%;
+  height:900px;
+  padding: 10px;
+}
+
+#pokemen{
+  display:inline-block;
+}
+
+#poke1{
+  height:200px;
+  width: 25%;
+}
+
+#poke2{
+  height:200px;
+  width: 25%;
+}
+
+#poke3{
+  height:200px;
+  width: 25%;
+}
+
+#pokemenstats{
+  display:inline-block;
+}
+
+#poke1stats{
+  height:200px;
+  width: 25%;
+}
+
+#poke2stats{
+  height:200px;
+  width: 25%;
+}
+
+#poke3stats{
+  height:200px;
+  width: 25%;
 }

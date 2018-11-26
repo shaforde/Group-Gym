@@ -1,3 +1,13 @@
+document.getElementById('team').addEventListener("click", .display.bind());
+
+document.getElementById('team').addEventListener("click", .display.bind());
+
+document.getElementById('team').addEventListener("click", .display.bind());
+
+document.getElementById('team').addEventListener("click", .display.bind());
+
+document.getElementById('team').addEventListener("click", .display.bind());
+
 class pokemans{
   constructor(name,hp,attack,defense,abilities){
     this.name = name;
@@ -38,3 +48,4 @@ document.getElementById('x-Ability').innerHTML = "Ability: " + x.abilities;
   .then(function () {
     // always executed
   });
+
