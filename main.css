@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +6,10 @@
 
 body {
   font-family: helvetica;
+}
+
+#gallery {
+  display: inline-block;
 }
 
 #Shanelle {
@@ -27,14 +31,4 @@ body {
 
 #Rinzin {
   background-color: ;
-=======
-
-
-
-
-
-
-#gallery {
-  display: inline-block;
->>>>>>> 2bec50c18b9deb217f6268b3be6b88908c5f8a29
 }
