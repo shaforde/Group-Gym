@@ -13,7 +13,7 @@ html {
 }
 
 img {
-  width: 150%
+  /* width: 150%; */
 }
 
 #Shanelle {
@@ -76,7 +76,6 @@ table{
 #pokemenstats{
   display:inline-block;
 }
-
 #poke1stats{
   height:200px;
   width: 25%;
@@ -90,4 +89,36 @@ table{
 #poke3stats{
   height:200px;
   width: 25%;
+}
+
+.Trainer{
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.Trainer:hover {
+  opacity: 0.5;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  padding:50px 25px;
+  z-index:1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#move{
+  hidden;
 }
