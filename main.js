@@ -11,81 +11,14 @@
 
 
 class pokemans{
-<<<<<<< HEAD
   constructor(divId, name, hp, attack, defense, abilities){
     this.divId = divId;
-=======
-  constructor(name, hp, attack, defense, abilities){
->>>>>>> 69a8f0d8c9b2373c3b468c43e20d41d78339f24e
     this.name = name;
     this.health = hp;
     this.attack = attack;
     this.defense = defense;
     this.abilities = abilities;
   }
-<<<<<<< HEAD
-=======
-
-}
-
-// Make a request for a user with a given ID
-axios.get("https://fizal.me/pokeapi/api/v2/name/name.json")
-  .then(function (response) {
-    // handle success
-    console.log(response);
-    //get chosen pokemons stats
-    console.log(response.data)
-    //create the pokemons stats and call where it comes from
-let x = new pokemans (
-  response.data.sprites.front_default,
-  response.data.name,
-  response.data.stats[5].base_stat,
-  response.data.stats[4].base_stat,
-  response.data.stats[3].base_stat,
-  response.data.abilities[0].ability.name
-)
-document.getElementById('x-Name').innerHTML = "Name: " + x.name;
-document.getElementById('x-Hp').innerHTML = "Hp: " + x.health;
-document.getElementById('x-Attack').innerHTML = "Attack: " + x.attack;
-document.getElementById('x-Defense').innerHTML = "Defense: " + x.defense;
-document.getElementById('x-Ability').innerHTML = "Ability: " + x.abilities;
-
-})
-  .catch(function (error) {
-    // handle error
-    console.log(error);
-  })
-  .then(function () {
-    // always executed
-  });
-
-
-
-
-
-
-
-//EXAMPLE FOR API CALLS
-
-//EACH POKEMON HAS THEIR OWN AXIOS
-axios.get("https://fizal.me/pokeapi/api/v2/id/448.json")
-  .then(function (response){
-    console.log(response.data);
-    let sprite = response.data.sprites.front_default;
-    let name = response.data.name;
-    let hp = response.data.stats[5].base_stat;
-    let atk = response.data.stats[4].base_stat;
-    let def = response.data.stats[3].base_stat;
-    // let abilities = "Abilities: " + response.data.abilities;
-
-    let Lucario = new Pokemon(sprite, name, "Lucario", hp, atk, def);
-    Lucario.display();
-    Kendra.pokemon.push(Lucario);
-});
-
-//PUT THIS FUNCTION WITHIN THE POKEMON CLASS
-//creates html tags and the info from the json
->>>>>>> 69a8f0d8c9b2373c3b468c43e20d41d78339f24e
   display(){
     let pokemonName = document.createElement('p');
     pokemonName.innerHTML = "Name: " + this.name;
@@ -109,9 +42,40 @@ axios.get("https://fizal.me/pokeapi/api/v2/id/448.json")
   }
 }
 
-<<<<<<< HEAD
+  //jigglypuff
+  // Make a request for a pokemon from the json
+  axios.get('https://fizal.me/pokeapi/api/v2/name/jigglypuff.json')
+    .then(function (response) {
+      // handle success
+      console.log(response.data);
+        let name = response.data.name;
+        let hp = response.data.stats[5].base_stat;
+        let attack = response.data.stats[4].base_stat;
+        let defense = response.data.stats[3].base_stat;
+        let abilities = response.data.abilities[0].ability.name;
+
+      let jigglypuff = new pokemans ("jigStats", name, hp, attack, defense, abilities);
+      jigglypuff.display();
+    });
+
+  //teddiursa
+  // Make a request for a pokemon from the json
+  axios.get('https://fizal.me/pokeapi/api/v2/name/teddiursa.json')
+    .then(function (response) {
+      // handle success
+      console.log(response.data);
+        let name = response.data.name;
+        let hp = response.data.stats[5].base_stat;
+        let attack = response.data.stats[4].base_stat;
+        let defense = response.data.stats[3].base_stat;
+        let abilities = response.data.abilities[0].ability.name;
+
+      let teddiursa = new pokemans ("tedStats", name, hp, attack, defense, abilities);
+      teddiursa.display();
+});
+//bellossom
 // Make a request for a pokemon from the json
-axios.get('https://fizal.me/pokeapi/api/v2/name/pikachu.json')
+axios.get('https://fizal.me/pokeapi/api/v2/name/bellossom.json')
   .then(function (response) {
     // handle success
     console.log(response.data);
@@ -121,15 +85,187 @@ axios.get('https://fizal.me/pokeapi/api/v2/name/pikachu.json')
       let defense = response.data.stats[3].base_stat;
       let abilities = response.data.abilities[0].ability.name;
 
-    let pikachu = new pokemans ("poke1", name, hp, attack, defense, abilities);
-    pikachu.display();
-  })
-  .catch(function (error) {
-    // handle error
-    console.log(error);
-  })
-  .then(function () {
-    // always executed
+    let bellossom = new pokemans ("bellStats", name, hp, attack, defense, abilities);
+    bellossom.display();
   });
-=======
->>>>>>> 69a8f0d8c9b2373c3b468c43e20d41d78339f24e
+//lucario
+// Make a request for a pokemon from the json
+axios.get('https://fizal.me/pokeapi/api/v2/name/lucario.json')
+.then(function (response) {
+  // handle success
+  console.log(response.data);
+    let name = response.data.name;
+    let hp = response.data.stats[5].base_stat;
+    let attack = response.data.stats[4].base_stat;
+    let defense = response.data.stats[3].base_stat;
+    let abilities = response.data.abilities[0].ability.name;
+
+  let lucario = new pokemans ("lucStats", name, hp, attack, defense, abilities);
+  lucario.display();
+});
+//delphox
+// Make a request for a pokemon from the json
+axios.get('https://fizal.me/pokeapi/api/v2/name/delphox.json')
+.then(function (response) {
+  // handle success
+  console.log(response.data);
+    let name = response.data.name;
+    let hp = response.data.stats[5].base_stat;
+    let attack = response.data.stats[4].base_stat;
+    let defense = response.data.stats[3].base_stat;
+    let abilities = response.data.abilities[0].ability.name;
+
+  let delphox = new pokemans ("delStats", name, hp, attack, defense, abilities);
+  delphox.display();
+});
+// lapras
+// Make a request for a pokemon from the json
+axios.get('https://fizal.me/pokeapi/api/v2/name/lapras.json')
+.then(function (response) {
+  // handle success
+  console.log(response.data);
+    let name = response.data.name;
+    let hp = response.data.stats[5].base_stat;
+    let attack = response.data.stats[4].base_stat;
+    let defense = response.data.stats[3].base_stat;
+    let abilities = response.data.abilities[0].ability.name;
+
+  let lapras = new pokemans ("lapStats", name, hp, attack, defense, abilities);
+  lapras.display();
+});
+// ditto
+// Make a request for a pokemon from the json
+axios.get('https://fizal.me/pokeapi/api/v2/name/ditto.json')
+  .then(function (response) {
+    // handle success
+    console.log(response.data);
+      let name = response.data.name;
+      let hp = response.data.stats[5].base_stat;
+      let attack = response.data.stats[4].base_stat;
+      let defense = response.data.stats[3].base_stat;
+      let abilities = response.data.abilities[0].ability.name;
+
+    let ditto = new pokemans ("ditStats", name, hp, attack, defense, abilities);
+    ditto.display();
+  });
+// typhlosion
+// Make a request for a pokemon from the json
+axios.get('https://fizal.me/pokeapi/api/v2/name/typhlosion.json')
+.then(function (response) {
+  // handle success
+  console.log(response.data);
+    let name = response.data.name;
+    let hp = response.data.stats[5].base_stat;
+    let attack = response.data.stats[4].base_stat;
+    let defense = response.data.stats[3].base_stat;
+    let abilities = response.data.abilities[0].ability.name;
+
+  let typhlosion = new pokemans ("typhStats", name, hp, attack, defense, abilities);
+  typhlosion.display();
+});
+// darkrai
+// Make a request for a pokemon from the json
+axios.get('https://fizal.me/pokeapi/api/v2/name/darkrai.json')
+  .then(function (response) {
+    // handle success
+    console.log(response.data);
+      let name = response.data.name;
+      let hp = response.data.stats[5].base_stat;
+      let attack = response.data.stats[4].base_stat;
+      let defense = response.data.stats[3].base_stat;
+      let abilities = response.data.abilities[0].ability.name;
+
+    let darkrai = new pokemans ("darkStats", name, hp, attack, defense, abilities);
+    darkrai.display();
+  });
+  // infernape
+  // Make a request for a pokemon from the json
+  axios.get('https://fizal.me/pokeapi/api/v2/name/infernape.json')
+    .then(function (response) {
+      // handle success
+      console.log(response.data);
+        let name = response.data.name;
+        let hp = response.data.stats[5].base_stat;
+        let attack = response.data.stats[4].base_stat;
+        let defense = response.data.stats[3].base_stat;
+        let abilities = response.data.abilities[0].ability.name;
+
+      let infernape = new pokemans ("inferStats", name, hp, attack, defense, abilities);
+      infernape.display();
+    });
+    // sceptile
+    // Make a request for a pokemon from the json
+    axios.get('https://fizal.me/pokeapi/api/v2/name/sceptile.json')
+      .then(function (response) {
+        // handle success
+        console.log(response.data);
+          let name = response.data.name;
+          let hp = response.data.stats[5].base_stat;
+          let attack = response.data.stats[4].base_stat;
+          let defense = response.data.stats[3].base_stat;
+          let abilities = response.data.abilities[0].ability.name;
+
+        let sceptile = new pokemans ("sceptStats", name, hp, attack, defense, abilities);
+        sceptile.display();
+      });
+  // garchomp
+  // Make a request for a pokemon from the json
+  axios.get('https://fizal.me/pokeapi/api/v2/name/garchomp.json')
+    .then(function (response) {
+      // handle success
+      console.log(response.data);
+        let name = response.data.name;
+        let hp = response.data.stats[5].base_stat;
+        let attack = response.data.stats[4].base_stat;
+        let defense = response.data.stats[3].base_stat;
+        let abilities = response.data.abilities[0].ability.name;
+
+      let garchomp = new pokemans ("garStats", name, hp, attack, defense, abilities);
+      garchomp.display();
+    });
+  // pikachu
+  // Make a request for a pokemon from the json
+  axios.get('https://fizal.me/pokeapi/api/v2/name/pikachu.json')
+    .then(function (response) {
+      // handle success
+      console.log(response.data);
+        let name = response.data.name;
+        let hp = response.data.stats[5].base_stat;
+        let attack = response.data.stats[4].base_stat;
+        let defense = response.data.stats[3].base_stat;
+        let abilities = response.data.abilities[0].ability.name;
+
+      let pikachu = new pokemans ("pikaStats", name, hp, attack, defense, abilities);
+      pikachu.display();
+    });
+  // metagross
+  // Make a request for a pokemon from the json
+  axios.get('https://fizal.me/pokeapi/api/v2/name/metagross.json')
+    .then(function (response) {
+      // handle success
+      console.log(response.data);
+        let name = response.data.name;
+        let hp = response.data.stats[5].base_stat;
+        let attack = response.data.stats[4].base_stat;
+        let defense = response.data.stats[3].base_stat;
+        let abilities = response.data.abilities[0].ability.name;
+
+      let metagross = new pokemans ("metaStats", name, hp, attack, defense, abilities);
+      metagross.display();
+    });
+
+  // hydreigon
+  // Make a request for a pokemon from the json
+  axios.get('https://fizal.me/pokeapi/api/v2/name/hydreigon.json')
+    .then(function (response) {
+      // handle success
+      console.log(response.data);
+        let name = response.data.name;
+        let hp = response.data.stats[5].base_stat;
+        let attack = response.data.stats[4].base_stat;
+        let defense = response.data.stats[3].base_stat;
+        let abilities = response.data.abilities[0].ability.name;
+
+      let hydreigon = new pokemans ("hydStats", name, hp, attack, defense, abilities);
+      hydreigon.display();
+    });

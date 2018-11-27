@@ -78,12 +78,15 @@ table{
 
 #poke2{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black ;
+
 }
 
 #poke3{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black ;
 }
 
 #pokemenstats{
@@ -91,17 +94,20 @@ table{
 }
 #poke1stats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black ;
 }
 
 #poke2stats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black ;
 }
 
 #poke3stats{
   height:200px;
   width: 25%;
+  border: 2px solid black ;
 }
 
 .Trainer{
