@@ -29,12 +29,12 @@ h1{
 }
 
 img {
-  height: 250px;
 
 }
 
 #Shanelle {
 
+}
 
 #Kendra {
 
@@ -57,55 +57,13 @@ table{
   text-align: center;
 }
 
-#Trainer{
-  display: inline-block;
-  width:50%;
-  height:900px;
-  padding: 10px;
-}
-
-#pokemen{
-  display: inline-block;
-}
-
-#poke1{
-  height:200px;
-  width: 25%;
-}
-
-#poke2{
-  height:200px;
-  width: 25%;
-}
-
-#poke3{
-  height:200px;
-  width: 25%;
-}
-
-#pokemenstats{
-  display:inline-block;
-}
-#poke1stats{
-  height:200px;
-  width: 25%;
-}
-
-#poke2stats{
-  height:200px;
-  width: 25%;
-}
-
-#poke3stats{
-  height:200px;
-  width: 25%;
-}
-
 .Trainer{
   opacity: 1;
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
+  height: 200px;
+
 }
 
 .Trainer:hover {
@@ -124,11 +82,87 @@ table{
   display: none;
   position: absolute;
   min-width: 160px;
-  padding:50px 25px;
-  z-index:1;
-  margin-left: -100px;
+  padding: 50px 25px;
+  z-index: 1;
+  float: left;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  margin-left: -100px;
+}
+
+#jigStats{
+  height:200px;
+  width: 25%;
+}
+
+#tedStats{
+  height:200px;
+  width: 25%;
+}
+
+#bellStats{
+  height:200px;
+  width: 25%;
+}
+
+#lucStats{
+  height:200px;
+  width: 25%;
+}
+
+#delStats{
+  height:200px;
+  width: 25%;
+}
+
+#lapStats{
+  height:200px;
+  width: 25%;
+}
+
+#ditStats{
+  height:200px;
+  width: 25%;
+}
+
+#typhStats{
+  height:200px;
+  width: 25%;
+}
+
+#darkStats{
+  height:200px;
+  width: 25%;
+}
+
+#inferStats{
+  height:200px;
+  width: 25%;
+}
+
+#sceptStats{
+  height:200px;
+  width: 25%;
+}
+
+#garStats{
+  height:200px;
+  width: 25%;
+}
+
+#pikaStats{
+  height:200px;
+  width: 25%;
+}
+
+#metaStats{
+  height:200px;
+  width: 25%;
+}
+
+#hydStats{
+  height:200px;
+  width: 25%;
 }
