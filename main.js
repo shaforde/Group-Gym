@@ -77,10 +77,10 @@ axios.get("https://fizal.me/pokeapi/api/v2/id/448.json")
 //PUT THIS FUNCTION WITHIN THE POKEMON CLASS
 //creates html tags and the info from the json
   display(){
-    let pokemonSprite = document.createElement('img');
-    pokemonSprite.src = this.sprite;
-    pokemonSprite.id = "size";
-    document.getElementById(this.divId).appendChild(pokemonSprite);
+    // let pokemonSprite = document.createElement('img');
+    // pokemonSprite.src = this.sprite;
+    // pokemonSprite.id = "size";
+    // document.getElementById(this.divId).appendChild(pokemonSprite);
 
     let pokemonName = document.createElement('p');
     pokemonName.innerHTML = "Name: " + this.name;
@@ -98,4 +98,3 @@ axios.get("https://fizal.me/pokeapi/api/v2/id/448.json")
     pokemonDefense.innerHTML = "Def: " + this.def;
     document.getElementById(this.divId).appendChild(pokemonDefense);
 }
-
