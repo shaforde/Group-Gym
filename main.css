@@ -1,36 +1,93 @@
+html {
+  background: url(Pokémon_Stadium_2.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
 
 * {
   margin: 0;
   padding: 0;
 }
 
-body {
-  background-image: url("stadium1.jpg");
-  background-color: #cccccc;
-  background-size: cover;
-  font-family: helvetica;
+#gallery {
 
+}
+
+img {
+  width: 150%
 }
 
 #Shanelle {
   background-color: ;
-
 }
 
 #Kendra {
   background-color: ;
+
 }
 
 #Dekwondra {
   background-color: ;
+
 }
 
-#Raijin {
+#Rajin {
+  background-color: ;
+
+}
+
+#Rinzen {
   background-color: ;
 }
 
-#Rinzin {
-  background-color: ;
+#gallery{
 
-#gallery {
+}
+
+table{
+  text-align: center;
+}
+
+#Trainer{
   display: inline-block;
+  width:50%;
+  height:900px;
+  padding: 10px;
+}
+
+#pokemen{
+  display:inline-block;
+}
+
+#poke1{
+  height:200px;
+  width: 25%;
+}
+
+#poke2{
+  height:200px;
+  width: 25%;
+}
+
+#poke3{
+  height:200px;
+  width: 25%;
+}
+
+#pokemenstats{
+  display:inline-block;
+}
+
+#poke1stats{
+  height:200px;
+  width: 25%;
+}
+
+#poke2stats{
+  height:200px;
+  width: 25%;
+}
+
+#poke3stats{
+  height:200px;
+  width: 25%;
+}
