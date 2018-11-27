@@ -15,7 +15,6 @@ body {
 
 h1{
   color: white;
-  position: fixed;
   text-align: center;
   font-size: 75px;
   text-shadow:
@@ -27,6 +26,7 @@ h1{
 
 #gallery {
   margin-top: 150px;
+
 }
 
 img {
@@ -63,7 +63,7 @@ table{
 #Trainer{
   display: inline-block;
   width:50%;
-  height:900px;
+  height:300px;
   padding: 10px;
 }
 
@@ -72,17 +72,17 @@ table{
 }
 
 #poke1{
-  height:200px;
+  height:100px;
   width: 25%;
 }
 
 #poke2{
-  height:200px;
+  height:100px;
   width: 25%;
 }
 
 #poke3{
-  height:200px;
+  height:100px;
   width: 25%;
 }
 
@@ -90,17 +90,17 @@ table{
   display:inline-block;
 }
 #poke1stats{
-  height:200px;
+  height:100px;
   width: 25%;
 }
 
 #poke2stats{
-  height:200px;
+  height:100px;
   width: 25%;
 }
 
 #poke3stats{
-  height:200px;
+  height:100px;
   width: 25%;
 }
 
