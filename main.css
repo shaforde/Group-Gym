@@ -85,6 +85,7 @@ table{
   padding: 50px 25px;
   z-index: 1;
   float: left;
+  text-transform: capitalize;
 }
 
 .dropdown:hover .dropdown-content {
@@ -95,81 +96,91 @@ table{
 #jigStats{
   height:200px;
   width: 200px;
-  border: 2px solid black ;
+  border: 1px solid black;
+background-color: #8bbdef;
 }
 
 #tedStats{
   height:200px;
   width: 200px;
-  border: 2px solid black ;
+  border: 2px solid black;
 
 }
 
 #bellStats{
   height:200px;
   width: 200px;
-  border: 2px solid black ;
+  border: 2px solid black;
 }
 
 #lucStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black;
 }
 
 #delStats{
   height:200px;
   width: 200px;
-  border: 2px solid black ;
+  border: 2px solid black;
 }
 
 #lapStats{
   height:200px;
   width: 200px;
-  border: 2px solid black ;
+  border: 2px solid black;
 }
 
 #ditStats{
   height:200px;
-  width: 25%;
+  width: 200px;
   border: 2px solid black ;
 }
 
 #typhStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black;
 }
 
 #darkStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black;
 }
 
 #inferStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black;
 }
 
 #sceptStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black;
 }
 
 #garStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black;
 }
 
 #pikaStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black;
 }
 
 #metaStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black;
 }
 
 #hydStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black;
 }
