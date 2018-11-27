@@ -25,11 +25,10 @@ h1{
 }
 
 #gallery {
-  margin-top: 150px;
+  margin-top: 80px;
 }
 
 img {
-  height: 250px;
 
 }
 
@@ -54,60 +53,8 @@ img {
 
 }
 
-
 table{
   text-align: center;
-}
-
-#Trainer{
-  display: inline-block;
-  width:50%;
-  height:900px;
-  padding: 10px;
-}
-
-#pokemen{
-  display:inline-block;
-}
-
-#poke1{
-  height:200px;
-  width: 200px;
-  border: 2px solid black ;
-}
-
-#poke2{
-  height:200px;
-  width: 200px;
-  border: 2px solid black ;
-
-}
-
-#poke3{
-  height:200px;
-  width: 200px;
-  border: 2px solid black ;
-}
-
-#pokemenstats{
-  display:inline-block;
-}
-#poke1stats{
-  height:200px;
-  width: 200px;
-  border: 2px solid black ;
-}
-
-#poke2stats{
-  height:200px;
-  width: 200px;
-  border: 2px solid black ;
-}
-
-#poke3stats{
-  height:200px;
-  width: 25%;
-  border: 2px solid black ;
 }
 
 .Trainer{
@@ -115,10 +62,15 @@ table{
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
+  height: 200px;
+
 }
 
 .Trainer:hover {
-  opacity: 0.5;
+  -ms-transfrom: scale(1.2);
+  -webkit-transfrom: scale(1.2);
+  transform: scale(1.2);
+
 }
 
 .dropdown {
@@ -130,14 +82,94 @@ table{
   display: none;
   position: absolute;
   min-width: 160px;
-  padding:50px 25px;
-  z-index:1;
+  padding: 50px 25px;
+  z-index: 1;
+  float: left;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  margin-left: -100px;
 }
 
-#move{
-  hidden;
+#jigStats{
+  height:200px;
+  width: 200px;
+  border: 2px solid black ;
+}
+
+#tedStats{
+  height:200px;
+  width: 200px;
+  border: 2px solid black ;
+
+}
+
+#bellStats{
+  height:200px;
+  width: 200px;
+  border: 2px solid black ;
+}
+
+#lucStats{
+  height:200px;
+  width: 25%;
+}
+
+#delStats{
+  height:200px;
+  width: 200px;
+  border: 2px solid black ;
+}
+
+#lapStats{
+  height:200px;
+  width: 200px;
+  border: 2px solid black ;
+}
+
+#ditStats{
+  height:200px;
+  width: 25%;
+  border: 2px solid black ;
+}
+
+#typhStats{
+  height:200px;
+  width: 25%;
+}
+
+#darkStats{
+  height:200px;
+  width: 25%;
+}
+
+#inferStats{
+  height:200px;
+  width: 25%;
+}
+
+#sceptStats{
+  height:200px;
+  width: 25%;
+}
+
+#garStats{
+  height:200px;
+  width: 25%;
+}
+
+#pikaStats{
+  height:200px;
+  width: 25%;
+}
+
+#metaStats{
+  height:200px;
+  width: 25%;
+}
+
+#hydStats{
+  height:200px;
+  width: 25%;
 }

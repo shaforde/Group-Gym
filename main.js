@@ -234,7 +234,7 @@ axios.get('https://fizal.me/pokeapi/api/v2/name/darkrai.json')
         let attack = response.data.stats[4].base_stat;
         let defense = response.data.stats[3].base_stat;
         let abilities = response.data.abilities[0].ability.name;
-
+    
       let pikachu = new pokemans ("pikaStats", name, hp, attack, defense, abilities);
       pikachu.display();
     });
@@ -269,3 +269,5 @@ axios.get('https://fizal.me/pokeapi/api/v2/name/darkrai.json')
       let hydreigon = new pokemans ("hydStats", name, hp, attack, defense, abilities);
       hydreigon.display();
     });
+
+
