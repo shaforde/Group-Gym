@@ -10,7 +10,6 @@ html {
 
 body {
   font-family: helvetica;
-
 }
 
 h1{
@@ -27,6 +26,7 @@ h1{
 #gallery {
   margin-top: 80px;
 }
+
 
 table{
   text-align: center;
