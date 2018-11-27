@@ -13,11 +13,12 @@ body {
 }
 
 #gallery {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 img {
-  width: 150%
+
+  height: 250px;
 }
 
 #Shanelle {

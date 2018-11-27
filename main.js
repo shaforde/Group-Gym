@@ -9,13 +9,14 @@ document.getElementById('team').addEventListener("click", .display.bind());
 document.getElementById('team').addEventListener("click", .display.bind());
 
 class pokemans{
-  constructor(name,hp,attack,defense,abilities){
+  constructor(name, hp, attack, defense, abilities){
     this.name = name;
     this.health = hp;
     this.attack = attack;
     this.defense = defense;
     this.abilities = abilities;
   }
+
 }
 
 // Make a request for a user with a given ID
