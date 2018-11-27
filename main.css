@@ -10,6 +10,17 @@ html {
 
 body {
   font-family: helvetica;
+
+}
+h1{
+  color: white;
+  text-align: center;
+  font-size: 75px;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 #gallery {
