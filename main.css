@@ -94,17 +94,21 @@ table{
 
 #jigStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black ;
 }
 
 #tedStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black ;
+
 }
 
 #bellStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black ;
 }
 
 #lucStats{
@@ -114,17 +118,20 @@ table{
 
 #delStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black ;
 }
 
 #lapStats{
   height:200px;
-  width: 25%;
+  width: 200px;
+  border: 2px solid black ;
 }
 
 #ditStats{
   height:200px;
   width: 25%;
+  border: 2px solid black ;
 }
 
 #typhStats{
