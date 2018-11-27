@@ -54,6 +54,7 @@ document.getElementById('x-Ability').innerHTML = "Ability: " + x.abilities;
 
 
 
+
 //EXAMPLE FOR API CALLS
 
 //EACH POKEMON HAS THEIR OWN AXIOS
@@ -96,3 +97,4 @@ axios.get("https://fizal.me/pokeapi/api/v2/id/448.json")
     pokemonDefense.innerHTML = "Def: " + this.def;
     document.getElementById(this.divId).appendChild(pokemonDefense);
 }
+
