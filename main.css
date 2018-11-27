@@ -8,38 +8,48 @@ html {
   padding: 0;
 }
 
-#gallery {
+body {
+  font-family: helvetica;
 
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 75px;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+#gallery {
+  margin-top: 150px;
 }
 
 img {
-  /* width: 150%; */
+  height: 250px;
+
 }
 
-#Shanelle:hover {
-  background-color: ;
-}
+#Shanelle {
+
 
 #Kendra {
-  background-color: ;
 
 }
 
 #Dekwondra {
-  background-color: ;
 
 }
 
 #Rajin {
-  background-color: ;
+
 
 }
 
 #Rinzen {
-  background-color: ;
-}
-
-#gallery{
 
 }
 
