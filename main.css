@@ -5,7 +5,11 @@
 }
 
 body {
+  background-image: url("stadium1.jpg");
+  background-color: #cccccc;
+  background-size: cover;
   font-family: helvetica;
+
 }
 
 #Shanelle {
@@ -30,4 +34,3 @@ body {
 
 #gallery {
   display: inline-block;
-}
