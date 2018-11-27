@@ -10,7 +10,6 @@ html {
 
 body {
   font-family: helvetica;
-
 }
 
 h1{
@@ -25,34 +24,12 @@ h1{
 }
 
 #gallery {
+<<<<<<< HEAD
   margin-top: 150px;
 
-}
-
-img {
-  height: 250px;
-
-}
-
-#Shanelle {
-
-}
-
-#Kendra {
-
-}
-
-#Dekwondra {
-
-}
-
-#Rajin {
-
-
-}
-
-#Rinzen {
-
+=======
+  margin-top: 80px;
+>>>>>>> 3434e7e76f115637f021f22bfa47a9d1c5d6c33a
 }
 
 
@@ -60,17 +37,72 @@ table{
   text-align: center;
 }
 
+.Trainer{
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  height: 200px;
+
+}
+
+.Trainer:hover {
+  -ms-transfrom: scale(1.2);
+  -webkit-transfrom: scale(1.2);
+  transform: scale(1.2);
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  padding: 50px 25px;
+  z-index: 1;
+  float: left;
+  text-transform: capitalize;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-left: -50px;
+}
+
+#jigStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #ff0080;
+}
+
+<<<<<<< HEAD
 #Trainer{
   display: inline-block;
   width:50%;
   height:300px;
   padding: 10px;
+=======
+#tedStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #ff0080;
+>>>>>>> 3434e7e76f115637f021f22bfa47a9d1c5d6c33a
 }
 
-#pokemen{
-  display:inline-block;
+#bellStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #ff0080;
 }
 
+<<<<<<< HEAD
 #poke1{
   height:100px;
   width: 25%;
@@ -84,11 +116,30 @@ table{
 #poke3{
   height:100px;
   width: 25%;
+=======
+#lucStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #b21e0e;
+
 }
 
-#pokemenstats{
-  display:inline-block;
+#delStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #b21e0e;
+>>>>>>> 3434e7e76f115637f021f22bfa47a9d1c5d6c33a
 }
+
+#lapStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #b21e0e;
+}
+<<<<<<< HEAD
 #poke1stats{
   height:100px;
   width: 25%;
@@ -102,36 +153,71 @@ table{
 #poke3stats{
   height:100px;
   width: 25%;
+=======
+
+#ditStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #1d70af;
 }
 
-.Trainer{
-  opacity: 1;
-  transition: opacity .25s ease-in-out;
-  -moz-transition: opacity .25s ease-in-out;
-  -webkit-transition: opacity .25s ease-in-out;
+#typhStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #1d70af;
 }
 
-.Trainer:hover {
-  opacity: 0.5;
+#darkStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #1d70af;
+>>>>>>> 3434e7e76f115637f021f22bfa47a9d1c5d6c33a
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+#inferStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  padding:50px 25px;
-  z-index:1;
+#sceptStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+#garStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
 }
 
-#move{
-  hidden;
+#pikaStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #cc4b14;
+}
+
+#metaStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #cc4b14;
+}
+
+#hydStats{
+  height: 150px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: #cc4b14;
 }
