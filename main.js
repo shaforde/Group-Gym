@@ -48,4 +48,3 @@ document.getElementById('x-Ability').innerHTML = "Ability: " + x.abilities;
   .then(function () {
     // always executed
   });
-
