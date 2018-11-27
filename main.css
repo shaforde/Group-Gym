@@ -16,7 +16,7 @@ img {
   /* width: 150%; */
 }
 
-#Shanelle {
+#Shanelle:hover {
   background-color: ;
 }
 
@@ -55,7 +55,7 @@ table{
 }
 
 #pokemen{
-  display:inline-block;
+  display: inline-block;
 }
 
 #poke1{
@@ -99,7 +99,10 @@ table{
 }
 
 .Trainer:hover {
-  opacity: 0.5;
+  -ms-transfrom: scale(1.2);
+  -webkit-transfrom: scale(1.2);
+  transform: scale(1.2);
+
 }
 
 .dropdown {
@@ -117,8 +120,4 @@ table{
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-#move{
-  hidden;
 }
